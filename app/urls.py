@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+def show_doc(request):
+    return HttpResponse('Hello')
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', show_doc, name='index')
 ]
