@@ -1,3 +1,3 @@
 def hello():
-    return "Hello, World! Hola!"
+    return "Hello, World! Hola! Hello!"
 
